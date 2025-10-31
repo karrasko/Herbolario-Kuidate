@@ -134,7 +134,7 @@ export default function IctusLanding() {
             <div>
               <div className="bg-gradient-to-br from-indigo-100 to-blue-100 rounded-3xl p-8 shadow-xl">
                 <img 
-                  src="/pilar-carrasco.png" 
+                  src="/Herbolario-Kuidate/pilar-carrasco.png" 
                   alt="Pilar Carrasco - Experta en neuro-rehabilitación"
                   className="w-full h-80 object-cover rounded-2xl shadow-inner"
                 />
