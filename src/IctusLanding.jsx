@@ -79,15 +79,15 @@ export default function IctusLanding() {
           <div className="text-center mb-12">
             <div className="inline-flex items-center gap-2 bg-red-100 text-red-700 px-4 py-2 rounded-full text-sm font-semibold mb-6 shadow-md">
               <Video size={16} />
-              MASTERCLASS ONLINE · EN DIRECTO (ZOOM)
+              MASTERCLASS ONLINE · EN DIRECTO (ZOOM) · SÁBADO
             </div>
             
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-              ¿Cuidas a alguien con <span className="text-indigo-600">hemiplejia</span>, o la estás viviendo en primera persona?
+              La vida imprescindible con el <span className="text-indigo-600">ictus</span>
             </h1>
             
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-              Si sientes que estás perdido, sin saber cómo seguir, esta clase es tu punto de partida
+              Tu ictus, tu motor
             </p>
 
             <div className="bg-white rounded-2xl shadow-2xl p-8 mb-8 max-w-3xl mx-auto border border-indigo-100">
