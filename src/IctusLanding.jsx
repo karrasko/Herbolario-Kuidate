@@ -133,9 +133,11 @@ export default function IctusLanding() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <div className="bg-gradient-to-br from-indigo-100 to-blue-100 rounded-3xl p-8 shadow-xl">
-                <div className="w-full h-80 bg-gradient-to-br from-indigo-300 to-blue-400 rounded-2xl flex items-center justify-center text-white text-6xl font-bold shadow-inner">
-                  PC
-                </div>
+                <img 
+                  src="/pilar-carrasco.png" 
+                  alt="Pilar Carrasco - Experta en neuro-rehabilitación"
+                  className="w-full h-80 object-cover rounded-2xl shadow-inner"
+                />
               </div>
             </div>
             
