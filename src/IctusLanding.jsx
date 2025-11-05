@@ -60,16 +60,16 @@ export default function IctusLanding() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
+    <div className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-amber-100">
       {/* Hero Section */}
       <div className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-indigo-700 opacity-5"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-amber-200 to-orange-200 opacity-20"></div>
         
         <nav className="relative max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
-          <div className="text-2xl font-bold text-indigo-700">Kuida-Té</div>
+          <div className="text-2xl font-bold text-red-700">Kuida-Té</div>
           <button 
             onClick={handleCTAClick}
-            className="bg-indigo-600 text-white px-6 py-2 rounded-full hover:bg-indigo-700 transition-all duration-300 shadow-lg hover:shadow-xl"
+            className="bg-emerald-600 text-white px-6 py-2 rounded-full hover:bg-emerald-700 transition-all duration-300 shadow-lg hover:shadow-xl"
           >
             Reservar Plaza
           </button>
@@ -82,19 +82,19 @@ export default function IctusLanding() {
               MASTERCLASS ONLINE · EN DIRECTO (ZOOM) · SÁBADO
             </div>
             
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-              La vida imprescindible con el <span className="text-indigo-600">ictus</span>
+            <h1 className="text-5xl md:text-6xl font-bold text-red-700 mb-6 leading-tight">
+              La vida imprescindible con el <span className="text-red-800">ictus</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-gray-900 mb-8 max-w-3xl mx-auto leading-relaxed font-semibold">
               Tu ictus, tu motor
             </p>
 
-            <div className="bg-white rounded-2xl shadow-2xl p-8 mb-8 max-w-3xl mx-auto border border-indigo-100">
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+            <div className="bg-white rounded-2xl shadow-2xl p-8 mb-8 max-w-3xl mx-auto border border-amber-200">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">
                 Aprenderás qué pasos dar para recuperar tu vida
               </h2>
-              <ul className="text-left space-y-3 text-gray-700">
+              <ul className="text-left space-y-3 text-gray-800">
                 <li className="flex items-start gap-3">
                   <CheckCircle className="text-green-500 flex-shrink-0 mt-1" size={20} />
                   <span>De forma sencilla y segura desde casa</span>
@@ -113,7 +113,7 @@ export default function IctusLanding() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
               <button 
                 onClick={handleCTAClick}
-                className="bg-gradient-to-r from-indigo-600 to-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-2xl transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
+                className="bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-2xl transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
               >
                 Acceder al Grupo de Telegram
                 <ArrowRight size={20} />
@@ -132,9 +132,9 @@ export default function IctusLanding() {
         <div className="max-w-5xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="bg-gradient-to-br from-indigo-100 to-blue-100 rounded-3xl p-8 shadow-xl">
+              <div className="bg-gradient-to-br from-amber-100 to-orange-100 rounded-3xl p-8 shadow-xl">
                 <img 
-                  src="/Herbolario-Kuidate/pilar-carrasco.png" 
+                  src="/ictus/pilar-carrasco.png" 
                   alt="Pilar Carrasco - Experta en neuro-rehabilitación"
                   className="w-full h-80 object-cover rounded-2xl shadow-inner"
                 />
@@ -142,11 +142,11 @@ export default function IctusLanding() {
             </div>
             
             <div>
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Hola, soy <span className="text-indigo-600">Pilar Carrasco</span>
+              <h2 className="text-4xl font-bold text-red-700 mb-6">
+                Hola, soy <span className="text-red-800">Pilar Carrasco</span>
               </h2>
               
-              <div className="space-y-4 text-gray-700 leading-relaxed">
+              <div className="space-y-4 text-gray-800 leading-relaxed">
                 <p className="text-lg">
                   <strong>Experta en neuro-rehabilitación</strong>, llevo toda una vida dedicada a acompañar a personas en su proceso de recuperación.
                 </p>
@@ -155,11 +155,11 @@ export default function IctusLanding() {
                   Desde que terminé mi carrera en 1995, he trabajado en hospitales y centros especializados, ayudando a pacientes hemipléjicos a reconectar con su cuerpo y recuperar funciones que daban por perdidas.
                 </p>
 
-                <div className="bg-indigo-50 border-l-4 border-indigo-600 p-6 rounded-r-xl my-6">
-                  <p className="font-bold text-xl text-indigo-900">
+                <div className="bg-amber-50 border-l-4 border-red-600 p-6 rounded-r-xl my-6">
+                  <p className="font-bold text-xl text-gray-900">
                     Más de 25 años de experiencia me han enseñado algo muy importante:
                   </p>
-                  <p className="text-2xl font-bold text-indigo-700 mt-2">
+                  <p className="text-2xl font-bold text-red-700 mt-2">
                     LA REHABILITACIÓN NO TERMINA, SEGUIMOS
                   </p>
                 </div>
@@ -181,45 +181,45 @@ export default function IctusLanding() {
       </div>
 
       {/* Benefits Section */}
-      <div className="bg-gradient-to-br from-indigo-600 to-blue-700 py-20 text-white">
+      <div className="bg-gradient-to-br from-amber-50 via-orange-50 to-amber-100 py-20">
         <div className="max-w-5xl mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center mb-12">
+          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
             ¿Qué conseguirás en esta Masterclass?
           </h2>
           
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 hover:bg-white/20 transition-all duration-300 transform hover:scale-105">
-              <Heart className="mb-4" size={40} />
-              <h3 className="text-xl font-bold mb-3">Pautas Prácticas</h3>
-              <p className="text-white/90">
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-amber-200">
+              <Heart className="mb-4 text-emerald-600" size={40} />
+              <h3 className="text-xl font-bold mb-3 text-gray-900">Pautas Prácticas</h3>
+              <p className="text-gray-700">
                 Ejercicios fáciles y adaptados para realizar desde tu casa, sin complicaciones
               </p>
             </div>
 
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 hover:bg-white/20 transition-all duration-300 transform hover:scale-105">
-              <CheckCircle className="mb-4" size={40} />
-              <h3 className="text-xl font-bold mb-3">Resultados Reales</h3>
-              <p className="text-white/90">
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-amber-200">
+              <CheckCircle className="mb-4 text-emerald-600" size={40} />
+              <h3 className="text-xl font-bold mb-3 text-gray-900">Resultados Reales</h3>
+              <p className="text-gray-700">
                 Técnicas probadas con cientos de pacientes durante más de 25 años
               </p>
             </div>
 
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 hover:bg-white/20 transition-all duration-300 transform hover:scale-105">
-              <Calendar className="mb-4" size={40} />
-              <h3 className="text-xl font-bold mb-3">Seguimiento Continuo</h3>
-              <p className="text-white/90">
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-amber-200">
+              <Calendar className="mb-4 text-emerald-600" size={40} />
+              <h3 className="text-xl font-bold mb-3 text-gray-900">Seguimiento Continuo</h3>
+              <p className="text-gray-700">
                 Porque la rehabilitación no termina, seguimos avanzando juntos
               </p>
             </div>
           </div>
 
           <div className="mt-16 text-center">
-            <p className="text-3xl font-bold mb-8">
+            <p className="text-3xl font-bold mb-8 text-gray-900">
               Vamos a TRANSFORMARNOS para conseguir lo que hemos perdido
             </p>
             <button 
               onClick={handleCTAClick}
-              className="bg-white text-indigo-700 px-10 py-5 rounded-full text-xl font-bold hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+              className="bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-10 py-5 rounded-full text-xl font-bold hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
             >
               ¡Quiero Unirme al Grupo de Telegram!
             </button>
@@ -230,15 +230,15 @@ export default function IctusLanding() {
       {/* CTA Final */}
       <div className="bg-white py-20">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold text-gray-900 mb-6">
+          <h2 className="text-4xl font-bold text-red-700 mb-6">
             ¡Te espero dentro para dar juntos el siguiente paso!
           </h2>
-          <p className="text-xl text-gray-600 mb-8">
+          <p className="text-xl text-gray-800 mb-8">
             No estás solo en este camino. Únete a nuestra comunidad de Telegram y recibe acceso directo a la masterclass.
           </p>
           <button 
             onClick={handleCTAClick}
-            className="bg-gradient-to-r from-indigo-600 to-blue-600 text-white px-12 py-5 rounded-full text-xl font-bold hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+            className="bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-12 py-5 rounded-full text-xl font-bold hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
           >
             Unirme al Grupo de Telegram
           </button>
@@ -262,13 +262,13 @@ export default function IctusLanding() {
             {!showSuccess ? (
               <>
                 <div className="text-center mb-6">
-                  <div className="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Send className="text-indigo-600" size={32} />
+                  <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Send className="text-emerald-600" size={32} />
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-2">
                     ¡Último Paso!
                   </h3>
-                  <p className="text-gray-600">
+                  <p className="text-gray-700">
                     Déjanos tu email para enviarte el enlace de acceso a nuestro grupo de Telegram
                   </p>
                 </div>
@@ -283,7 +283,7 @@ export default function IctusLanding() {
                       required
                       value={formData.name}
                       onChange={(e) => setFormData({...formData, name: e.target.value})}
-                      className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-indigo-500 focus:outline-none transition-colors"
+                      className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-emerald-500 focus:outline-none transition-colors"
                       placeholder="Tu nombre"
                     />
                   </div>
@@ -297,7 +297,7 @@ export default function IctusLanding() {
                       required
                       value={formData.email}
                       onChange={(e) => setFormData({...formData, email: e.target.value})}
-                      className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-indigo-500 focus:outline-none transition-colors"
+                      className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-emerald-500 focus:outline-none transition-colors"
                       placeholder="tu@email.com"
                     />
                   </div>
@@ -305,7 +305,7 @@ export default function IctusLanding() {
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full bg-gradient-to-r from-indigo-600 to-blue-600 text-white py-4 rounded-xl font-bold hover:shadow-xl transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                    className="w-full bg-gradient-to-r from-emerald-600 to-teal-600 text-white py-4 rounded-xl font-bold hover:shadow-xl transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                   >
                     {isSubmitting ? (
                       <>
@@ -337,7 +337,7 @@ export default function IctusLanding() {
                   Redirigiendo a Telegram...
                 </p>
                 <div className="flex justify-center">
-                  <div className="w-8 h-8 border-4 border-indigo-200 border-t-indigo-600 rounded-full animate-spin"></div>
+                  <div className="w-8 h-8 border-4 border-emerald-200 border-t-emerald-600 rounded-full animate-spin"></div>
                 </div>
               </div>
             )}
